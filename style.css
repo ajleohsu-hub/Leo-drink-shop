@@ -1,0 +1,126 @@
+body {
+  font-family: system-ui, sans-serif;
+  margin: 0;
+  background: #ff9d00;
+  color: #730088
+}
+
+header,
+main {
+  max-width: 760px;
+  margin: auto;
+  padding: 24px
+}
+
+.eyebrow {
+  letter-spacing: .15em
+}
+
+.menu {
+  display: grid;
+  gap: 16px
+}
+
+.drink,
+.summary {
+  background: rgb(116, 192, 222);
+  border: 1px solid #ddd;
+  border-radius: 16px;
+  padding: 20px
+}
+
+/*add button css*/
+.drink .add {
+  background-color: #d35100; /* Initial button color (Green) */
+  color: rgb(52, 0, 125);              /* Text/Plus sign color */
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;          /* Changes mouse cursor to a hand pointer */
+  transition: background-color 0.2s ease; /* Makes the color change smooth */
+}
+.add {
+  font-size: 24px;
+  width: 48px;
+  height: 48px;
+  border: 0;
+  border-radius: 12px;
+  cursor: pointer
+}
+.drink .add:hover {
+  background-color: #00d40e; /* Darker green when your mouse is over it */
+}
+
+
+
+
+
+
+
+
+
+
+
+/*remove button css*/
+.drink .remove {
+  background-color: #d35100; /* Initial button color (Green) */
+  color: rgb(52, 0, 125);              /* Text/Plus sign color */
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;          /* Changes mouse cursor to a hand pointer */
+  transition: background-color 0.2s ease; /* Makes the color change smooth */
+}
+.remove {
+  font-size: 24px;
+  width: 48px;
+  height: 48px;
+  border: 0;
+  border-radius: 12px;
+  cursor: pointer
+}
+.drink .remove:hover {
+  background-color: #00d40e; /* Darker green when your mouse is over it */
+}
+
+
+
+/* TODO: Leo，讓按鈕 hover 時有變化，並改善版面 */
+
+
+
+
+
+
+
+
+
+
+
+
+.drink {
+    position: relative;
+  }
+
+  .drink-image {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+
+    width: 220px;
+    height: 170px;
+    display: grid;
+    place-items: center;
+  }
+
+
+  .drink-image-thick {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+
+    width: 160px;
+    height: 170px;
+    display: grid;
+    place-items: center;
+  }

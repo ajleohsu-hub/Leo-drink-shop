@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width,initial-scale=1" name="viewport" />
+    <title>
+        Leo's Drink Shop
+    </title>
+    <link href="style.css" rel="stylesheet" />
+</head>
+
+<body>
+    <header>
+        <p class="eyebrow">
+            MISSION 01
+        </p>
+        <h1>
+            Leo Drink Shop
+        </h1>
+        <p>
+            今天想喝什麼？
+        </p>
+    </header>
+    <main>
+        <section class="menu" id="menu">
+            <article class="drink">
+                 <img
+      class="drink-image-thick"
+      src="https://img.shoplineapp.com/media/image_clips/66f7d7d52d4266c0fcb52af9/original.jpg?1727518677"
+      >
+                <h2>
+                    珍珠奶茶
+                </h2>
+                <p>
+                    $60
+                </p>
+                <!-- <button class="remove" data-price="60">−</button> -->
+                <button class="add" data-name="珍珠奶茶" data-price="60">
+                    +
+                </button>
+            </article>
+            <!-- TODO: Leo，請再加入至少兩種飲料 -->
+            <article class="drink">
+                 <img
+      class="drink-image-thick"
+      src="https://upload.wikimedia.org/wikipedia/commons/0/05/Orangejuice.jpg?utm_source=zh.wikipedia.org&utm_campaign=index&utm_content=original"
+      >
+                <h2>
+                    柳橙汁
+                </h2>
+                <p>
+                    $50
+                </p>
+                <!-- <button class="remove" data-price="50">−</button> -->
+                <button class="add" data-name="柳橙汁" data-price="50">
+                    +
+                </button>
+            </article>
+             <article class="drink">
+                 <img
+      class="drink-image-thick"
+      src="https://img.leezen.com.tw/upload/images/de6d6ea8fd47b5a5b8a74d38a4dab98b.jpg"
+      >
+                <h2>
+                    蘋果汁
+                </h2>
+                <p>
+                    $50
+                </p>
+                <!-- <button class="remove" data-price="50">−</button> -->
+                <button class="add" data-name="蘋果汁" data-price="50">
+                    +
+                </button>
+            </article>
+             <article class="drink">
+                 <img
+      class="drink-image"
+      src="https://tokyo-kitchen.icook.network/uploads/recipe/cover/117581/c2bbc3cf89cb2323.jpg"
+      >
+                <h2>
+                    葡萄汁
+                </h2>
+                <p>
+                    $50
+                </p>
+                <!-- <button class="remove" data-price="50">−</button> -->
+                <button class="add" data-name="葡萄汁" data-price="50">
+                    +
+                </button>
+            </article>
+             <article class="drink">
+                 <img
+      class="drink-image"
+      src="https://doqvf81n9htmm.cloudfront.net/data/parislin_131/201811/1122/01.jpg"
+      >
+                <h2>
+                    咖啡
+                </h2>
+                <p>
+                    $100
+                </p>
+                <!-- <button class="remove" data-price="100">−</button> -->
+                <button class="add" data-name="咖啡" data-price="100">
+                    +
+                </button>
+            </article>
+             <article class="drink">
+                 <img
+      class="drink-image"
+      src="https://lexie.tw/wp-content/uploads/2023/07/coffee-space-17.jpg"
+      >
+                <h2>
+                    高級咖啡
+                </h2>
+                <p>
+                    $200
+                </p>
+                <!-- <button class="remove" data-price="200">−</button> -->
+                <button class="add" data-name="高級咖啡" data-price="200">
+                    +
+                </button>
+            </article>
+             <article class="drink">
+                 <img
+      class="drink-image"
+      src="https://www.8ccafe.com/upload_files/food/FOOD2/new/_big_/_G6A5521.jpg"
+      >
+                <h2>
+                    頂級咖啡
+                </h2>
+                <p>
+                    $450
+                </p>
+                <!-- <button class="remove" data-price="450">−</button> -->
+                <button class="add" data-name="頂級咖啡" data-price="450">
+                    +
+                </button>
+            </article>
+            <article class="drink">
+                 <img
+      class="drink-image"
+      src="https://cdn-cw1.cw.com.tw/images/article/201802/article-5a7d757dc7a49.jpg"
+      >
+                <h2>
+                    蜂蜜水
+                </h2>
+                <p>
+                    $55
+                </p>
+                <!-- <button class="remove" data-price="55">−</button> -->
+                <button class="add" data-name="蜂蜜水" data-price="55">
+                    +
+                </button>
+            </article>
+            <article class="drink">
+                 <img
+      class="drink-image"
+      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRH-7afV2x1dEZ2OSl_tOayn8GlbBq1MMlFqSAYVq-6m4kYGjo3vICpGiO2&s=10"
+    >
+
+                <h2>
+                    牛奶
+                </h2>
+                <p>
+                    $45
+                </p>
+                <!-- <button class="remove" data-price="45">−</button> -->
+                <button class="add" data-name="牛奶" data-price="45">
+                    +
+                </button>
+            </article>
+        <section class="menu" id="menu"></section>
+        </section>
+        </section>
+        <aside class="summary">
+            <h2>
+                你的訂單
+            </h2>
+            <p>
+                總杯數：
+                <strong id="count">
+                    0
+                </strong>
+            </p>
+            <p>
+                總金額：$
+                <strong id="total">
+                    0
+                </strong>
+            </p>
+        </aside>
+    </main>
+    <script src="script.js">
+    </script>
+</body>
+
+</html>
